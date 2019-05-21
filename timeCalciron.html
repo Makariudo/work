@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta author="Spassevitch Stephane">
+    <meta charset="UTF-8">
+    <meta name="language" content="fr">
+    <title>Premier essai</title>
+	<link rel="stylesheet" type="text/css" href="iron1.css" media="screen" /> 
+   
+  </head>
+  <body>
+    <div id="div1">
+      	<div id="titre1">
+		Calculateur de temps natation Ironman
+		<br>
+		</div>
+		<br>
+		<form>
+		<div>
+          <label>Entrez votre temps au 100M au format MM:SS </label>
+          <input type="text" id="donne" size="20" > 
+        </div>
+		
+        <div>
+          <input type="button" onclick="affiche()" value="Envoyer" style="margin-top:8px">
+        </div>
+        </form>
+		<br>
+		<div id="affiche1">
+		Vous avez rentré :
+		</div>
+		<p>
+		<span id="view1"></span>
+		</p>
+		<span id="view2"></span>
+		<div id="space"></div>
+		<span id="view3"></span>
+     </div>
+	<script type="text/javascript" src="iron1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+#div1 {
+  margin: auto; 
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 30px 30px 30px 30px;
+  background-image: linear-gradient(to bottom right, #bfbfbf, #737373);
+}
+
+#listdep {
+	margin: auto; 
+	width: 300px;
+	text-align: center;
+	background-color: red;
+}
+
+#titre1 {
+		margin: auto;
+		text-transform: red;
+		font-size: large;
+}
+
+#affiche1 {
+	text-align: center;
+	background-color: gray;
+
+}
+
+#space {
+	padding-top : 20px;
+}
